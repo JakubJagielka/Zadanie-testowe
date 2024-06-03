@@ -1,0 +1,18 @@
+GET http://localhost:5026
+
+###
+
+GET http://localhost:5026/Wadowice
+
+###
+POST http://localhost:5026
+Content-Type: application/json
+
+{
+  "imie": "Jan",
+  "nazwisko": "DDA",
+  "ulica": "Kwiatowa",
+  "miasto": "Wadowice",
+  "wojewudztwo": "Mazowieckie",
+  "kod_Pocztowy": "00-001"
+}
